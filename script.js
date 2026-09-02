@@ -11,11 +11,4 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.fade-in').forEach(function (el) {
     observer.observe(el);
   });
-
-  document.querySelectorAll('.proof-img img').forEach(function (img) {
-    img.addEventListener('error', function () {
-      img.classList.add('img-missing');
-      img.closest('.proof-img').classList.add('is-missing');
-    });
-  });
 });
