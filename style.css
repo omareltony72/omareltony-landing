@@ -294,18 +294,6 @@ footer {
   border-top: 1px solid var(--line);
 }
 
-/* Fade in on scroll */
-.fade-in {
-  opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
-.fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* ---------- Desktop / larger screens ---------- */
 @media (min-width: 640px) {
   section.section, section.hero {
